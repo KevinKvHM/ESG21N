@@ -1,0 +1,143 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+header{
+	width: 100%;
+	background: #D2E3ED;
+	margin: 0%;
+	height: 75px;
+	
+}
+footer{
+	padding: 25px;
+    font-size: 14px;
+    background-color: black;
+	width: 100%;
+	margin: 0%;
+	height: 200px;
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+	
+}
+.encabezado{
+	width: 80%;
+	height: 70px;
+	margin: auto;
+}
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	background: #acdcf8;
+}
+img{
+	width: 25%;
+}
+.logo {
+	width: 25%;
+	height: 70px;	
+	float: left;
+	padding: 8px;
+	box-sizing: border-box;
+   }
+.logo p a{
+	font-size: 20px;
+}
+
+
+   nav {
+	   width: 75%;
+	   height: 70px;
+	   text-align: right;
+	   float: left;
+	   padding-top: 24px;
+	   box-sizing: border-box;
+   }
+ nav ul li {
+	
+	 display: inline-block;
+	 text-align: center;
+ }
+ nav ul li a {
+	 color: black;
+	 font-size: 20px;
+	 text-decoration: none;
+	 text-transform: uppercase;
+	 padding-left: 15px;
+	 font-weight: bold;
+	 letter-spacing: 1px;
+	 display: block;
+ }
+ nav ul li a:hover{
+	background: #acdcf8;
+
+ }
+
+.contenido{
+	color: black;
+	font-size: 20px;
+	text-align: center;
+
+
+}
+
+.site-map{
+	width: 25%;
+    float: left;
+	font-size: 20px;
+}
+.site-contacto{
+	color: white;
+    float: right;
+	width: 40%;
+	font-size: 20px;
+	text-align: justify;
+}
+.site-contacto p{
+	width:25%;
+}
+
+.site-info{
+   color: white;
+   display:inline-block;
+   font-size: 20px;
+   text-align: justify;
+   box-sizing: border-box;
+}
+
+.text{
+	color: white;
+	width: 92%;
+	height: 70px;
+	float: right;
+	text-align: justify;
+}
+.text a{
+	color: white;
+}
+.text a:hover{
+	color: rgba(98, 186, 245, 0.897);
+}
+.slogan{
+	display: flex;
+	justify-content: center;
+	font-size: 40px;
+	margin-left: 15%;
+	margin-right: 15%;
+	
+}
+
+.slogan p{
+	font-family: Arial;
+	font-style: oblique;
+	text-align: center;
+	color: black;
+}
+
+.video{
+
+	text-align: center;
+	float: center;
+	width: 100%;
+}
+
